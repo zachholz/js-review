@@ -6,7 +6,11 @@ $(document).ready(function() {
   	var quizQuestion4 = $("input:radio[name=quizQuestion4]:checked").val(); // "alone" or "together"
   	var quizQuestion5 = $("input:radio[name=quizQuestion5]:checked").val(); // "adventure" or "relax"
   
-    if(quizQuestion1 === "abroad" && quizQuestion2 === "urban" && quizQuestion3 === "beach" && quizQuestion4 === "together" && quizQuestion5 === "relax") {
+    if(quizQuestion1 === "abroad" && quizQuestion2 === "urban" && quizQuestion3 === "mountain" && quizQuestion4 === "alone" && quizQuestion5 === "adventure") {
+    	$("#santiago").show();
+    } else if(quizQuestion1 === "abroad" && quizQuestion2 === "urban" && quizQuestion3 === "mountain" && quizQuestion4 === "alone" && quizQuestion5 === "relax") {
+    	$("#munich").show();	
+    } else if(quizQuestion1 === "abroad" && quizQuestion2 === "urban" && quizQuestion3 === "beach" && quizQuestion4 === "together" && quizQuestion5 === "relax") {
     	$("#amsterdam").show(); 
   	} else {
   		$("#none").show();
