@@ -1,4 +1,4 @@
-#amsterdam, #santiago, #munich, #takayama, #tokyo {
+#amsterdam, #santiago, #munich, #takayama, #tokyo, #rio, #iceland, #thailand, #domestic, #none {
 	display: none;
 }
 
@@ -12,3 +12,8 @@ img {
 	color: red;
 	font-style: bold;
 }
+
+.questions {
+	background-color: moccasin; 
+}
+
