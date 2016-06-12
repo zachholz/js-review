@@ -1,19 +1,18 @@
 #amsterdam, #santiago, #munich, #takayama, #tokyo, #rio, #iceland, #thailand, #domestic, #none {
-	display: none;
+  display: none;
 }
 
 img {
-	max-width: 100%;
-	margin-bottom: 15px;
-	border-radius: 10px;
+  max-width: 100%;
+  margin-bottom: 15px;
+  border-radius: 10px;
 }
 
 .location {
-	color: red;
-	font-style: bold;
+  color: red;
+  font-style: bold;
 }
 
 .questions {
-	background-color: moccasin; 
+  background-color: moccasin; 
 }
-
